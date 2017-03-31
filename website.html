@@ -1,5 +1,51 @@
 <!DOCTYPE html>
 <html>
-<!-- This application is designed to help DIY students find the equipment necessary to complete certain assignments -->
+<!-- This application is designed to help DIY students find the equipment necessary to complete certain assignments
 
+Authors in chronological order of contribution:
+Robert C. Gutierrez
+rgutierrez27@utexas.edu
+-->
+  
+  <head>
+    <title>DIY Equipment Finder V 1.0</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    
+    <script>
+      
+      // The following code lets you know when the file was last modified. 
+      // This will help you know if you are looking at the new version of the file or if there is a delay on GitHub.
+      var docMod = document.lastModified;
+      alert("This file last modified  " + docMod);
+      console.log("This file last modified  " + docMod);
+      
+    </script>
+    
+     <style>
+	    img, object{ max-height:90%; max-width:90%; }	      
+      </style>
+      
+   </head>
+	
+<body>  
+  <!-- Home -->
+	<div data-role="page" id="home">
+
+		<div data-role="header">
+			<h1>What would you like to search for?</h1>
+		</div><!-- /header -->
+        <form>
+          First name:<br>
+          <input type="text" name="firstname"><br>
+          Last name:<br>
+          <input type="text" name="lastname">
+        </form>
+	</div><!-- /Home -->
+  
+  </body>
+  
 </html>
